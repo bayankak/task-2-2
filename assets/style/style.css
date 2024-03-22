@@ -1,0 +1,289 @@
+                    * {
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                        font-family: sans-serif;
+                        text-decoration: none;
+                    }
+                    
+                    nav {
+                        width: 100%;
+                        box-shadow: 0 1px 7px #7c7979ac;
+                        position: fixed;
+                        z-index: 10;
+                    }
+                    
+                    nav ul {
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        height: 50px;
+                        background-color: rgb(0, 0, 0);
+                    }
+                    
+                    ul li a {
+                        transition-duration: 0.8s;
+                        color: rgb(233, 212, 186);
+                        padding: 10px 23px;
+                        background-color: rgb(0, 0, 0);
+                    }
+                    
+                    nav ul li a:hover {
+                        background-color: rgb(233, 212, 186);
+                        color: rgb(0, 0, 0);
+                    }
+                    
+                    header {
+                        width: 100%;
+                        /* height: 500px; */
+                        background-image: url("../img/img1.jpg");
+                        opacity: 0.9;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 100vh;
+                        background-position: center;
+                        position: relative;
+                        text-align: center;
+                    }
+                    
+                    header .d1 {
+                        padding-top: 250px;
+                        color: rgb(243, 233, 215);
+                        line-height: 1.5;
+                    }
+                    
+                    .d1 h1 {
+                        font-size: 75px;
+                        font-family: "Verdana, Geneva, Tahoma, sans-serif";
+                    }
+                    header input{
+                        cursor:pointer;
+                        background-color: rgb(239, 233, 225);
+                        width: 400px;
+                        height: 35px;
+                        border-radius:20px;
+                        border: none;
+                        box-shadow: 2px 2px 9px rgb(247, 216, 167);
+                    }
+                    header input:focus{
+                        scale: 1.5;
+                       background-color: rgb(255, 200, 111);
+
+                    }
+                    header ::placeholder{
+                        color:rgb(32, 24, 10);
+                        font-weight:800;
+                        text-align: center;
+                    }
+                    
+                    header .d2 {
+                        position: absolute;
+                        bottom: 15px;
+                        right: 15px;
+                        font-size: 15px;
+                        color: rgb(234, 227, 214);
+                    }
+                    
+                    header .d3 {
+                        position: absolute;
+                        bottom: 15px;
+                        left: 15px;
+                        font-size: 15px;
+                        color: rgb(234, 227, 214);
+                        background-color: black;
+                        padding: 7px;
+                    }
+                    
+                    .s1,
+                    .s2,
+                    .s3 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background-color: rgb(212, 211, 211);
+                    }
+                    
+                    .s1 h2 {
+                        margin: 50px 0px;
+                        font-size: 30px;
+                        background-color: rgb(80, 62, 36);
+                        padding: 10px 20px;
+                        color: rgb(223, 223, 223);
+                        border-radius: 15px;
+                    }
+                    
+                    .s1 .d1,
+                    .s1 .d11 {
+                        margin: 15px 0px;
+                        line-height: 1.7;
+                        color: rgb(80, 62, 36);
+                    }
+                    
+                    .s1 .d2 i {
+                        display: block;
+                        font-size: 20px;
+                        color: rgb(80, 62, 36);
+                    }
+                    
+                    .s1 .d2 {
+                        background-color: rgb(240, 240, 240);
+                        border-left: 7px solid rgb(136, 136, 136);
+                        padding: 10px;
+                        width: 550px;
+                        height: 110px;
+                    }
+                    
+                    .s1 .d2 p {
+                        color: rgb(80, 62, 36);
+                        margin-top: 15px;
+                        font-size: 20px;
+                    }
+                    
+                    .s1 img {
+                        width: 550px;
+                        margin: 20px auto;
+                        height: 600px;
+                    }
+                    
+                    .s1 .d3 {
+                        line-height: 1.5;
+                        color: rgb(80, 62, 36);
+                        margin-right: 230px;
+                    }
+                    
+                    .s2 h2 {
+                        margin: 50px 0px;
+                        font-size: 30px;
+                        background-color: rgb(80, 62, 36);
+                        padding: 10px 20px;
+                        color: rgb(223, 223, 223);
+                        border-radius: 15px;
+                    }
+                    
+                    .s2 .nav {
+                        height: 50px;
+                        width: 550px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .s2 .nav a {
+                        box-shadow: 0px 0px 7px gray;
+                        font-size: 20px;
+                        width: 400px;
+                        border: 2px solid gray;
+                        text-align: center;
+                        color: rgb(80, 62, 36);
+                        height: 40px;
+                        margin-top: 10px;
+                        padding-top: 7px;
+                  
+                    }
+                  
+                    .s2 .nav .a1 {
+                        background-color: rgb(95, 89, 81);
+                        color: rgb(223, 223, 223);
+                    }
+                    
+                    .s2 .content {
+                        margin-top: 0;
+                        box-shadow: 0px 0px 7px gray;
+                        width: 550px;
+                        border: 2px solid gray;
+                        color: rgb(80, 62, 36);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        height: 600px;
+                    }
+                    
+                    .s2 .content .d1,
+                    .s2 .content .d2,
+                    .s2 .content .d3,
+                    .s2 .content .d4,
+                    .s2 .content .d5 {
+                        margin: 20px 30px;
+                    }
+                    
+                    .s2 img {
+                        width: 550px;
+                        margin: 20px auto;
+                        height: 400px;
+                    }
+                    
+                    .s3 h2 {
+                        margin: 50px 0px;
+                        font-size: 30px;
+                        background-color: rgb(80, 62, 36);
+                        padding: 10px 20px;
+                        color: rgb(223, 223, 223);
+                        border-radius: 15px;
+                    }
+                    
+                    .s3 img {
+                        width: 550px;
+                        margin: 20px auto;
+                    }
+                    
+                    .s3 .d1 {
+                        margin: 10px 43px 10px 0px;
+                        line-height: 1.5;
+                    }
+                    
+                    .s3 form {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: space-between;
+                        width: 550px;
+                    }
+                    
+                    .s3 form input {
+                        width: 550px;
+                        height: 50px;
+                        margin: 10px 0px;
+                    }
+                    
+                    .s3 form button {
+                        color: rgb(223, 223, 223);
+                        background-color: rgb(80, 62, 36);
+                        padding: 15px;
+                        text-align: center;
+                        font-size: 15px;
+                        border-radius: 10px;
+                        border: none;
+                        margin-bottom: 30px;
+                        cursor: pointer;
+                    }
+                    
+                    .s3 form input:hover {
+                        transform: scale(1.2);
+                    }
+                    
+                    .s3 form button:hover {
+                        transform: scale(1.2);
+                    }
+                    
+                    .s3 .d1 span {
+                        color: rgb(223, 223, 223);
+                        background-color: rgb(80, 62, 36);
+                        padding: 5px;
+                    }
+                    
+                    .s3 .p {
+                        margin-right: 250px;
+                    }
+                    
+                    footer {
+                        height: 80px;
+                    }
+                    
+                    footer p,
+                    a {
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 60px;
+                        color: rgb(80, 62, 36);
+                    }
